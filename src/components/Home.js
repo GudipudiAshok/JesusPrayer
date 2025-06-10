@@ -151,26 +151,24 @@ const Home = () => {
           <img src={music} alt="Worship" />
         </div>
         <div className="card-text">
-          <h2>Worship With Us</h2>
-          <p>Pleasure to welcome you to Calvary Temple, India</p>
+          <h3>Man of God</h3>
+          {/* <p>Pleasure to welcome you to , India</p> */}
+          <h1>
+            <strong>Pastor P Keerthy Kumar</strong>
+          </h1>
           <p>
-            <strong>Man of God:</strong> Pastor Rev P Satish Kumar
-          </p>
-          <p>
-            Pastor Satish Kumar is a highly respected and accepted preacher
-            across the globe for the following reasons:
+          Co-Founder,Jesus Prayer Ministries, Hyd
           </p>
           <ul>
             <li>
-              Consistent teaching: He focuses on love, hope, and redemption
-              without criticizing others.
+             Preaching & Showing "the Love of God" in Deeds
             </li>
             <li>
-              Transparency: Never took a salary; financial operations are clear.
+              {/* Transparency: Never took a salary; financial operations are clear. */}
             </li>
           </ul>
 
-          {showMore && (
+          {/* {showMore && (
             <>
               <ul>
                 <li>Humility: Despite fame, he remains grounded and simple.</li>
@@ -184,25 +182,24 @@ const Home = () => {
                 service.
               </p>
             </>
-          )}
+          )} */}
 
-          <span className="read-more-text" onClick={handleToggle}>
+          {/* <span className="read-more-text" onClick={handleToggle}>
             {showMore ? "Read less" : "Read more"}
-          </span>
+          </span> */}
         </div>
       </div>
       <div className="highlight-card">
         <div className="card-text">
-          <h2>Worship With Us</h2>
-          <p>Pleasure to welcome you to Calvary Temple, India</p>
+          <h3>Evangelist</h3>
+          <h1>Evg P Karuna Joy</h1>
           <p>
-            <strong>Man of God:</strong> Pastor Rev P Satish Kumar
+          Founder,Jesus Prayer Ministrie, Hyd
           </p>
           <p>
-            Pastor Satish Kumar is a highly respected and accepted preacher
-            across the globe for the following reasons:
+         I am Blessed to be Blessed 
           </p>
-          <ul>
+          {/* <ul>
             <li>
               Consistent teaching: He focuses on love, hope, and redemption
               without criticizing others.
@@ -210,7 +207,7 @@ const Home = () => {
             <li>
               Transparency: Never took a salary; financial operations are clear.
             </li>
-          </ul>
+          </ul> */}
 
           {showMore && (
             <>
@@ -228,9 +225,9 @@ const Home = () => {
             </>
           )}
 
-          <span className="read-more-text" onClick={handleToggle}>
-            {showMore ? "Read less" : "Read more"}
-          </span>
+          {/* <span className="read-more-text" onClick={handleToggle}>
+            {showMore ? "Read less" : "Read more"}  
+          </span> */}
         </div>
 
         <div className="card-image">
@@ -242,7 +239,7 @@ const Home = () => {
           <img src={me} alt="Worship" />
         </div>
         <div className="card-text">
-          <h2>Worship With Us</h2>
+          <h2>Worship With Us23</h2>
           <p>Pleasure to welcome you to Calvary Temple, India</p>
           <p>
             <strong>Man of God:</strong> Pastor Rev P Satish Kumar
