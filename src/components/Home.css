@@ -24,10 +24,7 @@
 
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   }
-  .home {
-  padding: 20px;
-  font-family: Arial, sans-serif;
-}
+  
 .timings{
     font-size: 48px;
     color: black;
@@ -45,9 +42,6 @@
   padding-left: 20px;
 }
 
-.services {
-  margin-top: 30px;
-}
 
 .service-block {
   margin-bottom: 20px;
@@ -80,34 +74,45 @@ th, td {
   }
   
   .services {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   
   .services table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
-  }
-  
-  .services th, .services td {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
+    color: white;
   }
   
   .services th {
-    background-color: #f4f4f4;
+    background: linear-gradient(to right, #4b2142, #4b2142);
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .services td {
+    padding: 10px;
+  }
+  
+  .services td.title-cell {
+    background-color: #4b2142;
     font-weight: bold;
   }
+
   .social-subscribe-container {
     text-align: center;
     padding: 2rem 1rem;
-    background-color: #c875e6;
-
+   
+    background-color: #4b2142;
     
  
   }
-  
+  .servicetime{
+
+    font-weight: bold;
+
+      color: #000;
+  }
   .social-subscribe-container h2 {
     font-size: 1.8rem;
     margin-bottom: 0.5rem;
@@ -222,14 +227,14 @@ th, td {
         box-sizing: border-box;
   
       }
-      
-      
-      .timings {
-        color: white;
-        font-size: 24px;
-        margin: 0;
+      .Kokapet{  color: #000;
+       
+        cursor: pointer;
+        font-weight: bold;
+           font-size: 20px;
       }
       
+
   
   
   
@@ -325,5 +330,22 @@ th, td {
     .button-group {
       justify-content: center;
     }
+  }
+  .custom-button {
+    border: 0.5px solid #4b2142;
+    border-radius: 18px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: white;
+    color: #4b2142;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    transition: all 0.2s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #4b2142;
+    color: white;
   }
   
