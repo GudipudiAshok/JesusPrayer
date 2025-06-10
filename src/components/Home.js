@@ -157,15 +157,15 @@ const Home = () => {
             <strong>Pastor P Keerthy Kumar</strong>
           </h1>
           <p>
-          Co-Founder,Jesus Prayer Ministries, Hyd
+          Co-Founder Jesus Prayer Ministries, Hyd
           </p>
           <ul>
-            <li>
+            <p>
              Preaching & Showing "the Love of God" in Deeds
-            </li>
-            <li>
-              {/* Transparency: Never took a salary; financial operations are clear. */}
-            </li>
+            </p>
+            {/* <li>
+              Transparency: Never took a salary; financial operations are clear.
+            </li> */}
           </ul>
 
           {/* {showMore && (
@@ -194,11 +194,60 @@ const Home = () => {
           <h3>Evangelist</h3>
           <h1>Evg P Karuna Joy</h1>
           <p>
-          Founder,Jesus Prayer Ministrie, Hyd
+          Founder Jesus Prayer Ministrie, Hyd
           </p>
           <p>
          I am Blessed to be Blessed 
           </p>
+          {/* <ul>
+            <li>
+              Consistent teaching: He focuses on love, hope, and redemption
+              without criticizing others.
+            </li>
+            <li>
+              Transparency: Never took a salary; financial operations are clear.
+            </li>
+          </ul> */}
+
+          {/* {showMore && (
+            <>
+              <ul>
+                <li>Humility: Despite fame, he remains grounded and simple.</li>
+                <li>
+                  Charity: Raised 5000+ spiritual warriors to establish Calvary
+                  Temple churches.
+                </li>
+              </ul>
+              <p>
+                Read more about his mission to transform lives through faith and
+                service.
+              </p>
+            </>
+          )} */}
+
+          {/* <span className="read-more-text" onClick={handleToggle}>
+            {showMore ? "Read less" : "Read more"}  
+          </span> */}
+        </div>
+
+        <div className="card-image">
+          <img src={evg} alt="Worship" />
+        </div>
+      </div>
+      <div className="highlight-card">
+        <div className="card-image">
+          <img src={me} alt="Worship" />
+        </div>
+        <div className="card-text">
+          <h3>Servent of God</h3>
+          <h1>Bro P Nithin Stephen</h1>
+          <p>
+            <strong>Management Jesus Prayer Ministrie, Hyd </strong> 
+          </p>
+          {/* <p>
+            Pastor Satish Kumar is a highly respected and accepted preacher
+            across the globe for the following reasons:
+          </p> */}
           {/* <ul>
             <li>
               Consistent teaching: He focuses on love, hope, and redemption
@@ -226,57 +275,8 @@ const Home = () => {
           )}
 
           {/* <span className="read-more-text" onClick={handleToggle}>
-            {showMore ? "Read less" : "Read more"}  
-          </span> */}
-        </div>
-
-        <div className="card-image">
-          <img src={evg} alt="Worship" />
-        </div>
-      </div>
-      <div className="highlight-card">
-        <div className="card-image">
-          <img src={me} alt="Worship" />
-        </div>
-        <div className="card-text">
-          <h2>Worship With Us23</h2>
-          <p>Pleasure to welcome you to Calvary Temple, India</p>
-          <p>
-            <strong>Man of God:</strong> Pastor Rev P Satish Kumar
-          </p>
-          <p>
-            Pastor Satish Kumar is a highly respected and accepted preacher
-            across the globe for the following reasons:
-          </p>
-          <ul>
-            <li>
-              Consistent teaching: He focuses on love, hope, and redemption
-              without criticizing others.
-            </li>
-            <li>
-              Transparency: Never took a salary; financial operations are clear.
-            </li>
-          </ul>
-
-          {showMore && (
-            <>
-              <ul>
-                <li>Humility: Despite fame, he remains grounded and simple.</li>
-                <li>
-                  Charity: Raised 5000+ spiritual warriors to establish Calvary
-                  Temple churches.
-                </li>
-              </ul>
-              <p>
-                Read more about his mission to transform lives through faith and
-                service.
-              </p>
-            </>
-          )}
-
-          <span className="read-more-text" onClick={handleToggle}>
             {showMore ? "Read less" : "Read more"}
-          </span>
+          </span> */}
         </div>
       </div>
 
