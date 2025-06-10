@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/JesusPrayer/static/css/main.6165a753.css",
+    "main.js": "/JesusPrayer/static/js/main.fd014a6d.js",
+    "static/js/453.93083262.chunk.js": "/JesusPrayer/static/js/453.93083262.chunk.js",
+    "static/media/ammagarujpeg.jpg": "/JesusPrayer/static/media/ammagarujpeg.a505d57ca6b36f9dbdaf.jpg",
+    "static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (10).jpeg": "/JesusPrayer/static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (10).febf75557d103e41c02b.jpeg",
+    "static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (9).jpeg": "/JesusPrayer/static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (9).d8f320730d2a0b483e9a.jpeg",
+    "static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (14).jpeg": "/JesusPrayer/static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (14).2ffaf5eb548e1b128fd8.jpeg",
+    "static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (15).jpeg": "/JesusPrayer/static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (15).17ce659e48722db97e58.jpeg",
+    "static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (8).jpeg": "/JesusPrayer/static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (8).60f5486c035ba3c6a352.jpeg",
+    "static/media/ayyagarujpeg.jpg": "/JesusPrayer/static/media/ayyagarujpeg.d6c9d8dd76a7b254aa8b.jpg",
+    "static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (12).jpeg": "/JesusPrayer/static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (12).d6724672af06c6d6e748.jpeg",
+    "static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (16).jpeg": "/JesusPrayer/static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (16).5b18b413dc8134deed93.jpeg",
+    "static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (3).jpeg": "/JesusPrayer/static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (3).77b86f57cfbc08d1a1ce.jpeg",
+    "static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (13).jpeg": "/JesusPrayer/static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (13).1a2af1a9c03a13c2f379.jpeg",
+    "static/media/nithin2jpeg.jpg": "/JesusPrayer/static/media/nithin2jpeg.e417e27e15641cd1f644.jpg",
+    "static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (11).jpeg": "/JesusPrayer/static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (11).81caef049434c1d12592.jpeg",
+    "static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (1).jpeg": "/JesusPrayer/static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (1).d1f0e26df357cd77fabe.jpeg",
+    "static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (4).jpeg": "/JesusPrayer/static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (4).b63e20a7b8e52a293f99.jpeg",
+    "static/media/logoch.jpg": "/JesusPrayer/static/media/logoch.6e2996539893a0d9f7cd.jpg",
+    "static/media/chuechimAGE.jpg": "/JesusPrayer/static/media/chuechimAGE.1ce91674f58d16eedc10.jpg",
+    "static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (6).jpeg": "/JesusPrayer/static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (6).0d46701d84f23ecdccd1.jpeg",
+    "static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (7).jpeg": "/JesusPrayer/static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (7).0d46701d84f23ecdccd1.jpeg",
+    "static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (5).jpeg": "/JesusPrayer/static/media/WhatsApp Image 2025-06-09 at 4.04.05 PM (5).2b5a285eb56e8c0adec2.jpeg",
+    "static/media/slick.svg": "/JesusPrayer/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/JesusPrayer/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/JesusPrayer/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/JesusPrayer/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/JesusPrayer/index.html",
+    "main.6165a753.css.map": "/JesusPrayer/static/css/main.6165a753.css.map",
+    "main.fd014a6d.js.map": "/JesusPrayer/static/js/main.fd014a6d.js.map",
+    "453.93083262.chunk.js.map": "/JesusPrayer/static/js/453.93083262.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6165a753.css",
+    "static/js/main.fd014a6d.js"
+  ]
+}
