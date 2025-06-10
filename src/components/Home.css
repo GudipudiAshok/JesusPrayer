@@ -1,0 +1,329 @@
+.home-container {
+    text-align: center;
+    min-height: 100vh;
+    background-color: #fff;
+    padding-top: 130px; /*  thiAdjusts to match the height of your fixed header */
+  }
+  .image-wrapper {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+
+  }
+  .Cname{
+    font-size: 44px;
+    color: black;
+
+  
+
+  }
+  .music-image {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .home {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.timings{
+    font-size: 48px;
+    color: black;
+
+}
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.locations ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.services {
+  margin-top: 30px;
+}
+
+.service-block {
+  margin-bottom: 20px;
+}
+
+.service-block h4 {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.home {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .services {
+    margin-top: 20px;
+  }
+  
+  .services table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .services th, .services td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .services th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  .social-subscribe-container {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #c875e6;
+
+    
+ 
+  }
+  
+  .social-subscribe-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .social-subscribe-container p {
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  .icon-group {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    color: #444;
+    transition: all 0.3s ease;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2);
+  }
+
+  .highlight-card {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% - 40px); /* for left+right margin */
+    margin: 2rem 20px; 
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .card-image {
+    flex: 1;
+    min-width: 300px;
+    max-width: 50%;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-text {
+    flex: 1;
+    max-width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .card-text h2 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+  }
+  
+  .card-text p,
+  .card-text li {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+  }
+  
+  .read-more-btn {
+    margin-top: 1rem;
+    background-color: #1DA1F2;
+    color: #000;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  
+  @media (max-width: 768px) {
+    .highlight-card {
+      flex-direction: column;
+    }
+  
+    .card-image,
+    .card-text {
+      max-width: 100%;
+    }
+  }
+  
+  
+    .card-text {
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .read-more-text {
+        color: #00bfff;
+        margin-top: 1rem;
+        cursor: pointer;
+        font-weight: bold;
+       
+      }
+      .timings-card {
+        background-color: purple;
+        color: white;
+        padding: 16px 24px;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        box-sizing: border-box;
+  
+      }
+      
+      
+      .timings {
+        color: white;
+        font-size: 24px;
+        margin: 0;
+      }
+      
+  
+  
+  
+  /* Optional platform-specific colors */
+  .youtube { color: #FF0000; }
+  .facebook { color: #3b5998; }
+  .instagram { color: #C13584; }
+  .twitter { color: #1DA1F2; }
+  .message-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(to right, #4b2142, #4b2142);
+    padding: 40px;
+    color: white;
+    gap: 40px;
+ margin-top: 20px;
+  }
+ 
+  
+  .message-text {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+  }
+  
+  .message-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .message-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .watch-now {
+    background-color: #fc8877;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none; /* 👈 removes underline */
+    display: inline-block;  /* ensures proper button-like appearance */
+  }
+  
+  .outline-button {
+    border: 2px solid #ffffff88;
+    background: transparent;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none; /* 👈 removes underline */
+    display: inline-block;  /* ensures proper button-like appearance */
+  }
+  
+  
+  .message-video {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    aspect-ratio: 16/9;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .message-container {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .message-text h1 {
+      font-size: 28px;
+    }
+  
+    .message-text p {
+      font-size: 16px;
+    }
+  
+    .button-group {
+      justify-content: center;
+    }
+  }
+  
