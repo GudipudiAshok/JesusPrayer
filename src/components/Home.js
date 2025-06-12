@@ -160,9 +160,12 @@ const Home = () => {
           Co-Founder Jesus Prayer Ministries, Hyd
           </p>
           <ul>
-            <p>
-             Preaching & Showing "the Love of God" in Deeds
-            </p>
+          <ul>
+  <li>
+    Preaching & Showing "the Love of God" in Deeds
+  </li>
+</ul>
+
             {/* <li>
               Transparency: Never took a salary; financial operations are clear.
             </li> */}
@@ -190,7 +193,7 @@ const Home = () => {
         </div>
       </div>
       <div className="highlight-card">
-        <div className="card-text">
+        <div className="card-text-top-left">
           <h3>Evangelist</h3>
           <h1>Evg P Karuna Joy</h1>
           <p>
@@ -242,7 +245,7 @@ const Home = () => {
           <h3>Servent of God</h3>
           <h1>Bro P Nithin Stephen</h1>
           <p>
-            <strong>Management Jesus Prayer Ministrie, Hyd </strong> 
+            Management Jesus Prayer Ministrie, Hyd 
           </p>
           {/* <p>
             Pastor Satish Kumar is a highly respected and accepted preacher
