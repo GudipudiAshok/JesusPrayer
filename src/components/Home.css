@@ -385,4 +385,56 @@ th, td {
     background-color: #4b2142;
     color: white;
   }
+  .card-text {
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .title-small {
+    font-size: 28px;
+
+  }
+  
+  .title-large {
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 1px;
+    color: #fff;
+  }
+  
+  .subtitle {
+    font-size: 22px;
+    margin-top: 4px;
+  }
+  
+  .description {
+    font-size: 20px;
+    margin-top: 4px;
+  }
+  .description3 {
+    font-size: 40px;
+    margin-top: 10px;
+  }
+  
+  /* 🔽 Mobile-specific styles */
+  @media (max-width: 768px) {
+    .title-small {
+      font-size: 20px;
+    }
+  
+    .title-large {
+      font-size: 28px;
+    }
+  
+    .subtitle {
+      font-size: 16px;
+    }
+  
+    .description {
+      font-size: 15px;
+    }
+    .description3 {
+      font-size: 15px;
+    }
+  }
   

@@ -11,7 +11,8 @@ function App() {
 
   return (
     <div className="App">
-      <Header setActiveTab={setActiveTab} />
+    <Header setActiveTab={setActiveTab} activeTab={activeTab} />
+
       {activeTab === 'home' && <Home />}
       {activeTab === 'about' && <About />}
     </div>

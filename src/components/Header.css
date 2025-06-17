@@ -11,13 +11,11 @@
   .headerView {
     display: flex;
     align-items: center;
-  
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 1rem;
+    justify-content: space-between;
+    padding: 1rem;    
   }
   
-  /* Margin left for desktop */
+
   @media (min-width: 769px) {
     .headerView {
       margin-left: 80px;
@@ -28,11 +26,30 @@
   .logo {
     font-weight: bold;
     font-size: 1.2rem;
+    display: flex;
+    align-items: center;       /* Vertically center items */
+    justify-content: space-between;   /* Center entire block horizontally */
+    flex-direction: row;
+    gap: 12px;                 /* Space between image and text */
+    text-align: center;
+  }
+  
+  .logo-text {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.2;    
+    margin-left: 20px;      /* Improve vertical alignment */
   }
   
   .nav {
     display: flex;
-    gap: 1rem;margin-left: 80px;
+    gap: 1rem;margin-right: 100px;
+  }
+  .nav button.active {
+    color: #007bff;              /* Blue text */
+    font-weight: bold;
+    border-bottom: 2px solid #007bff; /* Optional underline */
   }
   
   .nav button {
@@ -46,43 +63,69 @@
     display: none;
     font-size: 1.5rem;
   }
-  
-  /* Mobile Styles */
-  @media (max-width: 768px) {
+  @media (min-width: 769px) {
     .headerView {
-      flex-direction: row;
-      justify-content: space-between;
-      margin: 0 1rem; /* Reset margin */
+      justify-content: space-between; /* This spreads logo and nav */
+      padding: 1rem 2rem;
     }
   
+    .nav {
+      margin-left: auto;   /* Push nav to far right */
+    }
+  }
+  @media (max-width: 768px) {
     .nav {
       display: none;
       flex-direction: column;
       background: white;
       padding: 1rem;
       position: absolute;
-      top: 60px;
-      right: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      right: 0;
+         /* Aligned to the right edge of the screen */
+      width: 100px;      /* Narrow width */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      z-index: 1000;
+      align-items: flex-start;
+      animation: slideInDown 0.3s ease-in-out;
     }
   
     .nav.open {
       display: flex;
     }
   
+    @keyframes slideInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-10%);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0%);
+      }
+    }
+  
+    .nav button {
+      padding: 10px 15px;
+      text-align: left;
+      width: 100%;
+      background: none;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  
+    .nav button.active {
+      font-weight: bold;
+      color: #007bff;
+      background-color: #f0f0f0;
+      border-radius: 4px;
+    }
+  
     .menu-icon {
       display: block;
+      cursor: pointer;
     }
-    .logo {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    
-    .logo-image {
-      width: 100px; /* adjust as needed */
-      height: auto;
-    }
-    
   }
+  
   
